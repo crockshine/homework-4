@@ -1,0 +1,1 @@
+export const BASE_URL: string = 'https://tasks-service-maks1394.amvera.io';
