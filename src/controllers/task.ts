@@ -70,5 +70,5 @@ class TaskController {
 }
 
 const fetchTaskApi = new FetchTaskApi()
-const xhrTaskApi = new XhrTaskApi()
+// const xhrTaskApi = new XhrTaskApi()
 export const taskController = new TaskController(fetchTaskApi)
