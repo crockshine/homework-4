@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="icon" type="image/svg+xml" href="/vite.svg"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>homework-4</title>
+  <script type="module" crossorigin src="/assets/index-D_OyJiO-.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-rcCkeObP.css">
+</head>
+<body>
+
+<section class="content-wrapper">
+    <div class="edit-panel" id="edit-panel">
+        <form id="create-form" class="edit-panel__form">
+            <h2>Создание</h2>
+            <label for="name">
+                Название задачи *
+                <input type="text" id="name" name="name" required/>
+            </label>
+
+            <label for="info">Описание задачи
+                <textarea id="info" name="info"></textarea>
+            </label>
+
+            <label for="isImportant" class="checkbox">
+                <input type="checkbox" name="isImportant" id="isImportant">
+                Очень важно
+            </label>
+
+            <button type="submit">
+                Создать
+            </button>
+        </form>
+    </div>
+
+
+    <section class="content">
+        <div class="checkboxes">
+            <label for="important" class="checkbox" id="is-important-checkbox">
+                <input type="checkbox" id="important" name="important"/>
+                Важные
+            </label>
+
+            <label for="completed" class="checkbox" id="is-completed-checkbox">
+                <input type="checkbox" id="completed" name="completed"/>
+                Выполненные
+            </label>
+        </div>
+
+        <form class="search-form" id="search-form">
+            <input type="text" name="search" placeholder="Поиск..."/>
+            <button type="submit">Найти</button>
+        </form>
+
+        <div class="task-list" id="task-list">
+        </div>
+    </section>
+</section>
+
+</body>
+</html>
